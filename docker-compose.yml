@@ -1,0 +1,15 @@
+
+database:
+  image: fizix/docker-postgres-rrule:latest
+  # build: .
+  environment:
+    - POSTGRES_PASSWORD=test
+    - POSTGRES_USER=test
+    - POSTGRES_DB=test
+
+pgadmin:
+  image: fenglc/pgadmin4
+  links:
+    - database:database
+  ports:
+    - 5050:5050
