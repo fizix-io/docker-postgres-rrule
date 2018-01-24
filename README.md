@@ -9,7 +9,7 @@ See [Official Postgres documentation](https://hub.docker.com/_/postgres/) for do
 docker-compose up
 ```
 
-Then go to [http://localhost:5050](http://localhost:5050) (db host: database, user: test, password: test).
+Then go to [http://localhost:5050](http://localhost:5050) (See https://hub.docker.com/r/fenglc/pgadmin4/ to see how to log in, use pgadmin4@pgadmin.org/admin to log in to pgAdmin 4 and then add a connection to db host: database, user: test, password: test).
 
 ----
 
